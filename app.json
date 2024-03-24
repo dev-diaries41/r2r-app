@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "R2R",
+    "slug": "r2r",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rentAgreed.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/rentAgreed_foreground.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#888888"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/rentAgreed_foreground.png",
+        "backgroundImage": "./assets/rentAgreed_background.png",
+        "android": {
+        },
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.android.r2r"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+      }
+    }
+  }
+}
